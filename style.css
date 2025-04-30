@@ -1,0 +1,170 @@
+/* General reset y fuente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  h1, h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  p {
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  header.hero {
+    background-color: #111;
+    color: #fff;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .boton {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .seccion {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .seccion.dark {
+    background-color: #222;
+    color: white;
+  }
+  
+  /* IMAGENES EN IMPACTOS Y ESPERANZA */
+  .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .imagenes img {
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  /* Para figcaption encima de imagenes, si decides usarlas */
+  .imagenes figure {
+    position: relative;
+    width: 250px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .imagenes figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .imagenes figure figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Lista con íconos */
+  .impacto {
+    list-style: none;
+    margin-bottom: 2rem;
+  }
+  
+  .impacto li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 1rem;
+  }
+  
+  input, textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #111;
+    color: white;
+  }
+  
+  /* GALERÍA */
+  .galeria .imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .galeria figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .galeria img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .galeria figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
